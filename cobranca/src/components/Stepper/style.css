@@ -1,0 +1,55 @@
+.stepper-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 17.8rem;
+    margin-left: 4.9rem;
+}
+
+.stepper-step {
+    display: flex;
+    flex-direction: column;
+}
+
+.stepper-content {
+    display: flex;
+}
+
+.future-step circle:first-child {
+    fill: transparent;
+    stroke: var(--verde-medio);
+}
+
+.future-step circle:last-child {
+    fill: var(--verde-medio);
+}
+
+.icon-box {
+    display: flex;
+    margin-right: 2.4rem;
+}
+
+.text-box {
+    gap: 8px;
+}
+
+.stepper-label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--verde-medio);
+}
+
+.stepper-description {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: var(--cinza-200);
+}
+
+.vertical-line {
+    width: 3px;
+    height: 40px;
+    background-color: var(--verde-medio);
+    margin: 0.4rem 2.2rem 0.4rem;
+}

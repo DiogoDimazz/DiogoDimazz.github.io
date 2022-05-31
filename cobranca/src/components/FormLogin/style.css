@@ -1,0 +1,111 @@
+.container-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 75%;
+    background-color: #F8F8F9;
+
+    position: relative;
+}
+
+.container-login h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 32px;
+}
+
+.container-login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 14px;
+    position: relative;
+
+}
+
+
+.container-login label {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    padding-bottom: 6px;
+}
+
+.container-login input {
+    background: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 44px;
+    width: 368px;
+    padding: 10px 0px 10px 14px;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.content-login-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.content-login-label span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #DA0175;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.content-login-email {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.content-login-password {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.content-login-password img {
+    position: absolute;
+    top: 40px;
+    left: 330px;
+    width: 20px;
+    height: 20px;
+}
+
+.content-login-email img {
+    position: absolute;
+    top: 30px;
+    left: 330px;
+    width: 20px;
+    height: 20px;
+}
+
+.content-login-login span a {
+    color: #DA0175;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.content-login-enter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 46px;
+
+}

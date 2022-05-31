@@ -1,0 +1,175 @@
+.general-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    cursor: pointer;
+
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.modal-label {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #344054;
+
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-input {
+    height: 4.4rem;
+    padding: 1rem 1.4rem;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0rem 0.1rem 0.2rem rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.modal-input::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #667085
+}
+
+.modal-input:focus {
+    outline: none;
+}
+
+.pink-btn {
+    height: 3.3rem;
+    padding: 0.4rem 4rem;
+    background-color: var(--rosa-medio);
+    border: none;
+    border-radius: 10px;
+
+    color: #F8F8F9;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.signup-pink-btn {
+    background: #DA0175;
+    display: flex;
+    flex-wrap: nowrap;
+    color: white;
+    min-width: 160px;
+    height: 33px;
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 4px 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.pink-btn:hover,
+.signup-pink-btn:hover {
+    transform: scale(1.02);
+    opacity: 0.9;
+}
+
+.error-message {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-erro);
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--letra-erro-modal);
+    min-width: 20%;
+    height: 5rem;
+    padding: 4px 40px;
+    border-radius: 10px;
+    transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.modal-warning-message,
+.warning-message {
+    position: absolute;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--letra-erro)
+}
+
+.modal-warning-message {
+    bottom: -1.9rem;
+    right: 0;
+}
+
+.warning-message {
+    bottom: 0;
+    left: 0;
+}
+
+
+.title-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+
+.title-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.title-3-semibold {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.title-3-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.title-4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.title-100 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+
+
+
+.content-tab {
+    position: absolute;
+    top: 730px;
+}

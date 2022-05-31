@@ -1,0 +1,46 @@
+.container-side-bar {
+    min-height: 100vh;
+    width: 30%;
+    position: relative;
+    background-color: rgba(3, 74, 42, 0.05);
+}
+
+.content-opacity {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(3, 74, 42, 0.05);
+    position: absolute;
+}
+
+.content-side-bar {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+
+.content-side-bar-text {
+    display: flex;
+    height: 100px;
+    width: 388px;
+
+    margin: 163px 47px 0 47px;
+}
+
+
+.content-side-bar-text p {
+    color: #034A2A;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+
+.content-side-bar img {
+    min-height: 99%;
+
+}

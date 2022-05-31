@@ -1,0 +1,62 @@
+.billing-table-label {
+    height: 6.6rem;
+}
+
+.billing-table-label,
+.billing-row {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.4rem 0 4rem;
+    gap: 5rem;
+
+    border-bottom: 1px solid #eff0f6;
+
+}
+
+.billing-column {
+    width: 100%;
+}
+
+.billing-table-label .billing-column {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--cinza-200);
+}
+
+.billing-row {
+    flex-grow: 1;
+}
+
+.billing-row .billing-column {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #6e6e85;
+}
+
+.billing-footer {
+    height: 5.8rem;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.billing-footer-list-btn {
+    border: none;
+    background-color: transparent;
+
+    cursor: pointer;
+    text-decoration: underline;
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: var(--rosa-medio);
+}

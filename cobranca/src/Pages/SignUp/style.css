@@ -1,0 +1,14 @@
+.container-sign-up {
+    display: flex;
+    background-color: #F0F0F5;
+    height: 100vh;
+    width: 100%;
+}
+
+.content-dados {
+    width: 70%;
+}
+
+.content-vertical {
+    width: 30%;
+}
